@@ -1,7 +1,7 @@
 <template>
     <v-app-bar app color="black" dark flat class="px-12" >
       <v-btn >
-        <v-icon color="yellow" left class="mr-2">fas fa-signature</v-icon> Yurp
+        <v-icon color="black" left class="mr-2">fas fa-signature</v-icon>
       </v-btn>
       
   

@@ -6,12 +6,12 @@
         <v-row>
           <v-col cols="5">
             <div style="position: relative" class="mt-16">
-              <h1 class="text-grey">Hello,</h1>
-              <h1 class="text-white">I'M Yusril Rahmadhan Putra</h1>
-              <span class="text-grey">Networking</span><br />
+              <h1 class="text-grey">Hai,</h1>
+              <h1 class="text-white">Saya,TEGUH VISYAIFUL MUJAB</h1>
+              <span class="text-grey">PROGRAMING</span><br />
 
               <v-btn tile dark class="text-yellow mt-8" variant="outlined">
-                Contact me
+                FOLLOW ME
               </v-btn>
             </div>
           </v-col>
@@ -34,7 +34,7 @@
           </v-col>
           <v-col cols="5">
             <div style="position: relative; z-index: 9999" class="mt-16">
-              <v-img src="i1.png" contain max-height="300"></v-img>
+              <v-img src="rrq.jpeg" contain max-height="280"></v-img>
             </div>
           </v-col>
         </v-row>
@@ -44,32 +44,32 @@
           <v-row>
             <v-col cols="12" sm="6">
               <div class="ball">
-                <v-img src="i2.png" max-height="200" class=""></v-img>
+                <v-img src="maps.jpeg" max-height="200" class=""></v-img>
               </div>
             </v-col>
             <v-col cols="12" sm="6">
               <h5 class="mt-16">About Me</h5>
               <div style="width: 120px">
                 <v-slider
-                  v-model="slider2"
-                  color="yellow"
+                  v-model="model"
+                  color="red"
                   label="track-color"
                 ></v-slider>
               </div>
-              <h4 class="mt-n4">I Am a Student in Universitas Islam Riau</h4><br>
-              <h4 class="">Biodata</h4>
+              <h4 class="mt-n4">Mahasiswa Universitas Islam Riau</h4><br>
+              <h4 class="">Profile</h4>
               <p class="text-grey">
-                Nama : Yusril Rahmadhan Putra<br>
-                Tempat Tanggal Lahir : Bagan Batu 01-11-2004<br>
+                Nama : Teguh Visyaiful Mujab<br>
+                Tempat Tanggal Lahir : Borneo Barat,05-01-2002<br>
                 Status : Mahasiswa
               </p>
               <br />
-              <h4 class="">Skill & Pengalaman</h4>
+              <h4 class="">Pengalaman & Sertifikat</h4>
               <div class="text-grey">
-                Konfigurasi Mikrotik
-                <br>Menyambung Fiber Optic ke FastConnector
-                <br>Membuat Jaringan LAN
-                <br>Menyambung Fiber Optic Menggunakan Splicer<br>
+                Bersertifikasi Google Maps
+                <br>Ahli Dalam Mengkaji
+                <br>Bersertifikasi BIN Cyber
+                <br>Ahli Mengkonfigurasi IP<br>
               </div>
             </v-col>
           </v-row>
@@ -108,7 +108,7 @@ export default defineComponent({
   margin-bottom: 6px;
   height: 400px;
   width: 100%;
-  color: white;
+  color: rgb(235, 24, 210);
 }
 .head:before {
   content: "";
@@ -117,7 +117,7 @@ export default defineComponent({
   left: 0;
   height: 100%;
   width: 50%;
-  background: rgb(10, 6, 6);
+  background: rgb(26, 185, 229);
   transform: skew(0deg, 6deg);
 }
 .head:after {
@@ -127,7 +127,7 @@ export default defineComponent({
   right: 0;
   height: 100%;
   width: 50%;
-  background: black;
+  background: rgb(26, 185, 229);
   transform: skew(0deg, -6deg);
 }
 .egg {
